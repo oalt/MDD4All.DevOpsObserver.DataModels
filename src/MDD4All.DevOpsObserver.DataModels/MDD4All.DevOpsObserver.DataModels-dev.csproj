@@ -1,0 +1,10 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>$(MSBuildProjectName.Replace("-dev", ""))</RootNamespace>
+    <AssemblyName>$(MSBuildProjectName.Replace("-dev", ""))</AssemblyName>
+    <UserSecretsId>83aa2989-be87-4cb0-9356-444b97355d8b</UserSecretsId>
+  </PropertyGroup>
+
+</Project>
