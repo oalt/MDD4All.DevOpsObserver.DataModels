@@ -22,6 +22,8 @@ namespace MDD4All.DevOpsObserver.DataModels
 
         public string Alias { get; set; } = "";
 
+        public string WorkflowTitle { get; set; }
+
         public string Branch { get; set; } = "";
 
         public DevOpsStatus Status { get; set; } = DevOpsStatus.Unknown;
