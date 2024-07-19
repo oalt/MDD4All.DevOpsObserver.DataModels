@@ -26,7 +26,7 @@ namespace MDD4All.DevOpsObserver.DataModels
 
         public string Branch { get; set; } = "";
 
-        public DevOpsStatus Status { get; set; } = DevOpsStatus.Unknown;
+        public DevOpsStatus StatusValue { get; set; } = DevOpsStatus.Unknown;
         
         public int BuildNumber { get; set; }
         
